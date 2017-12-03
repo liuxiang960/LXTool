@@ -10,7 +10,7 @@
 #import "BaseView.h"
 typedef void(^MsgBubbleCallbackBlock)();
 
-@interface MsgBubbleView : BaseView
+@interface MsgBubbleView : UIView
 
 + (instancetype)sharedInstance;
 
