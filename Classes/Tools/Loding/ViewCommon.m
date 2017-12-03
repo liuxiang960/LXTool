@@ -12,7 +12,7 @@
 #import "SEAlertView.h"
 #import "SEAlertBoxHandle.h"
 #import "MsgBubbleView.h"
-//#import "SVProgressHUD.h"
+#import "SVProgressHUD.h"
 #import "MsgBubbleHandle.h"
 //#import "LXInformationViewController.h"
 //#import "LXLoding.h"

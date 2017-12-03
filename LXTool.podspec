@@ -138,6 +138,7 @@ s.dependency "CYLTabBarController", "~> 1.14.2"
 s.dependency "Masonry", "~>1.1.0"
 s.dependency "GTMBase64", "~>1.0.0"
 s.dependency "BlocksKit", "~> 2.2.5"
+s.dependency "SVProgressHUD", "~> 2.2.2"
 end
 
 
