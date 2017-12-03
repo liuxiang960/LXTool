@@ -12,7 +12,6 @@
 //#import "AppDelegate.h"
 #import "UIColor+helper.h"
 #import "MEOHintView.h"
-#import "LoginService.h"
 @implementation SeudPublic
 +(NSString *)getNumToChinaNum:(NSInteger)num{
     if (num==1) {
@@ -1711,18 +1710,7 @@
 }
 
 +(void)loadUserStatusData:(LoadUserInfoCallback)callback{
-    [LoginService loadUserStatusData:^(BOOL success, int code, NSString *desc, NSObject *data) {
-        callback(success,code,desc,data);
-    }];
-   
-    
-    [LXAllServiceApi qryCityListCallBack:^(BOOL success, int code, NSString *desc, NSObject *data) {
-        if (success && ![data isKindOfClass:[NSNull class]])
-        {
-            NSDictionary *dic = (NSDictionary *)data;
-            DE.formData = dic;
-        }
-    }];
+
 }
 
 +(void)loadUserStatusData
