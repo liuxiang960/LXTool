@@ -9,7 +9,7 @@
 #import "SeudPublic.h"
 #import <ifaddrs.h>
 #import <arpa/inet.h>
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "UIColor+helper.h"
 #import "MEOHintView.h"
 #import "LoginService.h"
