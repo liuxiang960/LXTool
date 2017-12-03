@@ -7,7 +7,7 @@
 //
 
 #import "UIButton+Extends.h"
-#import "OperateService.h"
+//#import "OperateService.h"
 
 @implementation UIButton (Extends)
 @dynamic isCstomBol;
@@ -16,7 +16,7 @@ static char isCstomBolKey;
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     NSString* name = [NSString stringWithFormat:@"%@:%ld",self.titleLabel.text,(long)self.tag];
     dispatch_async(dispatch_get_main_queue(), ^{
-        [OperateService clickButton:name];
+//        [OperateService clickButton:name];
     });
     [super touchesBegan:touches withEvent:event];
 }
