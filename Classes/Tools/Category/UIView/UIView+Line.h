@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SeudPublic.h"
 typedef NS_ENUM(NSInteger, DrawLocate)
 {
     DradwTopLine = 0,/**  上*/
