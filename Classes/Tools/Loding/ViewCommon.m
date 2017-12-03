@@ -14,7 +14,7 @@
 #import "MsgBubbleView.h"
 //#import "SVProgressHUD.h"
 #import "MsgBubbleHandle.h"
-#import "LXInformationViewController.h"
+//#import "LXInformationViewController.h"
 //#import "LXLoding.h"
 @implementation ViewCommon
 
