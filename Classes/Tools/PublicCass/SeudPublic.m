@@ -2055,20 +2055,20 @@
 }
 + (double)minWavePrice:(NSString*)price {
     double temp = 0.0;
-    if (DE.minPriceArray) {
-        NSNumber *maxPrice ;
-        NSNumber *minPrice ;
-        NSNumber *waveUnit ;
-        for (NSDictionary *dict in DE.minPriceArray) {
-            maxPrice = dict[@"maxPrice"];
-            minPrice = dict[@"minPrice"];
-            waveUnit = dict[@"waveUnit"];
-            if (minPrice.doubleValue < price.doubleValue && price.doubleValue <= maxPrice.doubleValue) {
-                temp = waveUnit.doubleValue;
-                break;
-            }
-        }
-    }
+//    if (DE.minPriceArray) {
+//        NSNumber *maxPrice ;
+//        NSNumber *minPrice ;
+//        NSNumber *waveUnit ;
+//        for (NSDictionary *dict in DE.minPriceArray) {
+//            maxPrice = dict[@"maxPrice"];
+//            minPrice = dict[@"minPrice"];
+//            waveUnit = dict[@"waveUnit"];
+//            if (minPrice.doubleValue < price.doubleValue && price.doubleValue <= maxPrice.doubleValue) {
+//                temp = waveUnit.doubleValue;
+//                break;
+//            }
+//        }
+//    }
     return temp;
 }
 
