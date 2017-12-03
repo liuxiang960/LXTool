@@ -26,6 +26,7 @@
 #import "NSEnumerator+RACSequenceAdditions.h"
 #import "RACCompoundDisposable.h"
 #import "SDImageCache.h"
+#import "SDImageCacheConfig.h"
 typedef void(^LoadUserInfoCallback)();
 
 typedef NS_ENUM(NSInteger,EUserInputType){
