@@ -8,7 +8,7 @@
 
 #import "SEAlertBoxPlacingView.h"
 #import "SHAlertPlacingCell.h"
-
+#import "Masonry.h"
 @interface SEAlertBoxPlacingView ()<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) UIImageView *upImageView;
 @property (nonatomic, strong) UIView *centerView;

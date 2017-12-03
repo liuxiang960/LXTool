@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Masonry.h"
 @interface SEAlertBoxView : UIView
 
 @property (nonatomic, strong) UILabel *lblTitle;

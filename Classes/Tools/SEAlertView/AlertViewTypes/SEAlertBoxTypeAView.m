@@ -7,7 +7,7 @@
 //
 
 #import "SEAlertBoxTypeAView.h"
-
+#import "Masonry.h"
 @interface SEAlertBoxTypeAView ()
 
 @property (nonatomic, strong) UIImageView *imageViewClose;/**< 右上角关闭按钮 */
