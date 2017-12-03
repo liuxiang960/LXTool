@@ -15,6 +15,16 @@
 #import <objc/runtime.h>
 #import "SEUDFont.h"
 #import "MEOHintView.h"
+#import "RACAnnotations.h"
+#import "RACCommand.h"
+#import "RACSignal.h"
+#import "RACScheduler.h"
+#import "RACSubject.h"
+#import "RACEXTScope.h"
+#import "RACSequence.h"
+#import "RACSignal+Operations.h"
+#import "NSEnumerator+RACSequenceAdditions.h"
+#import "RACCompoundDisposable.h"
 typedef void(^LoadUserInfoCallback)();
 
 typedef NS_ENUM(NSInteger,EUserInputType){

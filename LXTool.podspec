@@ -139,6 +139,9 @@ s.dependency "Masonry", "~>1.1.0"
 s.dependency "GTMBase64", "~>1.0.0"
 s.dependency "BlocksKit", "~> 2.2.5"
 s.dependency "SVProgressHUD", "~> 2.2.2"
+s.dependency "ReactiveObjC", "~> 3.0.0"
+s.dependency "JSBadgeView", "~> 1.4.1"
+s.dependency "MJExtension", "~> 3.0.13"
 end
 
 
