@@ -135,6 +135,7 @@ s.public_header_files = "Classes/**/*.h"
 
 # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 s.dependency "CYLTabBarController", "~> 1.14.2"
+s.dependency "Masonry", "~>1.1.0"
 end
 
 
