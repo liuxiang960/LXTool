@@ -12,7 +12,7 @@
 #import "SEAlertView.h"
 #import "SEAlertBoxHandle.h"
 #import "MsgBubbleView.h"
-#import "SVProgressHUD.h"
+//#import "SVProgressHUD.h"
 #import "MsgBubbleHandle.h"
 #import "LXInformationViewController.h"
 //#import "LXLoding.h"
@@ -32,13 +32,13 @@
 //    else{
 //        [self toast:@"请先安装QQ"];
 //    }
-    NSString* url = @"http://www.365webcall.com/chat/ChatWin3.aspx?settings=mw7mmNPmPwbP70z3APm6N0z3AX07z3A66mmmI&UserID=-1";
-    LXInformationViewController *web=[[LXInformationViewController alloc] init];
-    web.titleStr = @"在线客服";
-    web.contentURL = url;
-    web.isOnlineService = YES;
-    web.hidesBottomBarWhenPushed=YES;
-    [[SeudPublic findTopViewController].navigationController pushViewController:web animated:YES];
+//    NSString* url = @"http://www.365webcall.com/chat/ChatWin3.aspx?settings=mw7mmNPmPwbP70z3APm6N0z3AX07z3A66mmmI&UserID=-1";
+//    LXInformationViewController *web=[[LXInformationViewController alloc] init];
+//    web.titleStr = @"在线客服";
+//    web.contentURL = url;
+//    web.isOnlineService = YES;
+//    web.hidesBottomBarWhenPushed=YES;
+//    [[SeudPublic findTopViewController].navigationController pushViewController:web animated:YES];
 }
 
 +(void)showSharePad:(NSString *)url{

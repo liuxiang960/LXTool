@@ -26,7 +26,8 @@
  */
 
 #import <UIKit/UIKit.h>
-
+#import "SEUDColor.h"
+#import "SEUDFont.h"
 @protocol keyBoardDelegate <NSObject>
 
 @optional
