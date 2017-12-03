@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseView.h"
 typedef void(^MsgBubbleCallbackBlock)();
 
 @interface MsgBubbleView : UIView
