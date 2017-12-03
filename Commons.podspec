@@ -92,10 +92,10 @@ s.source       = { :git => "https://github.com/liuxiang960/LXTool.git", :tag => 
 #
 
 #s.source_files  = "Classes", "Classes/**/*.{h,m}"
-s.source_files  = "LXTool/Classes/**/*.{h,m}"
+s.source_files  = "Classes/**/*.{h,m}"
 
 s.exclude_files = "Classes/Exclude"
-s.public_header_files = "LXTool/Classes/**/*.h"
+s.public_header_files = "Classes/**/*.h"
 
 
 # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
