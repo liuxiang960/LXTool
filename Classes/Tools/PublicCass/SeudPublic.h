@@ -5,7 +5,8 @@
 //  Created by 刘湘 on 15/12/22.
 //  Copyright © 2015年 chuangwuxian. All rights reserved.
 //
-
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeigth [[UIScreen mainScreen] bounds].size.height
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "Masonry.h"
