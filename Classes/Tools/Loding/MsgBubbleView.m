@@ -161,7 +161,7 @@
     self.alpha = 1.f;
     NSAttributedString *attributedString = [[NSAttributedString alloc] initWithData:[msg dataUsingEncoding:NSUnicodeStringEncoding] options:@{NSDocumentTypeDocumentAttribute:NSHTMLTextDocumentType,NSFontAttributeName:SEUD_Font_14} documentAttributes:nil error:nil];
     [self.lblText setAttributedText:attributedString];
-    CGSize tmpSize = [msg sizeWithFont:SEUD_Font_12 constrainedToSize:CGSizeMake(ScreenWidth, 0) lineBreakMode:NSLineBreakByCharWrapping];
+    CGSize tmpSize = [msg sizeWithFont:SEUD_Font_12 constrainedToSize:CGSizeMake([[UIScreen mainScreen] bounds].size.width, 0) lineBreakMode:NSLineBreakByCharWrapping];
     CGFloat maxWidth = [UIScreen mainScreen].bounds.size.width - 80.f;
     CGFloat width = tmpSize.width > maxWidth ? maxWidth:tmpSize.width;
     [self.lblText mas_updateConstraints:^(MASConstraintMaker *make) {
