@@ -5,7 +5,8 @@
 //  Created by Chengkai on 16/6/24.
 //  Copyright © 2016年 chuangwuxian. All rights reserved.
 //
-
+#import <UIKit/UIKit.h>
+#import "UIColor+helper.h"
 #ifndef SEUDColor_h
 #define SEUDColor_h
 
