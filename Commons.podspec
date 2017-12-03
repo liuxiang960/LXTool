@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "LXTool"
-s.version      = "1.0.2"
+s.version      = "1.0.0"
 s.summary      = "Afff"
 
 # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ s.author             = { "liuxiang960" => "a11223344" }
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/liuxiang960/LXTool.git", :tag => "1.0.2" }
+s.source       = { :git => "https://github.com/liuxiang960/LXTool.git", :tag => "1.0.0" }
 
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
