@@ -7,6 +7,7 @@
 //
 
 #import "SeudPublic.h"
+#define _T(string,code) (string)
 #import <ifaddrs.h>
 #import <arpa/inet.h>
 //#import "AppDelegate.h"
