@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "Masonry.h"
 #import "SeudPublic.h"
+#import "UIColor+helper.h"
+#import "SEUDColor.h"
+#import "SEUDFont.h"
 /**
  *  @author 程凯, 16-07-27 18:07:54
  *
