@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Masonry.h"
+#import "SeudPublic.h"
 /**
  *  @author 程凯, 16-07-27 18:07:54
  *
