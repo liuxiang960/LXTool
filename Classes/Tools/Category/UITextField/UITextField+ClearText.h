@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
-
+#import "SeudPublic.h"
 typedef void(^UITextFieldClearBlock)();
 
 @interface UITextField (ClearText)

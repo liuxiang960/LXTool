@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SeudPublic.h"
 typedef void(^SEUITextFieldBlock)(NSString *text);
 
 @interface UITextField (Extends)

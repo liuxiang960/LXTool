@@ -8,7 +8,7 @@
 
 
 #import <UIKit/UIKit.h>
-
+#import "SeudPublic.h"
 @interface UITextField (RightButton)
 
 @property (nonatomic, assign) BOOL showRightButton;
