@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SeudPublic.h"
 #import <objc/runtime.h>
 
 typedef void(^SEUIViewEventBlock)();

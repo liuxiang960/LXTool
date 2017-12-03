@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SeudPublic.h"
 /**
  *  @author 程凯, 16-07-16 13:07:20
  *

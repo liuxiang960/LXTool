@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SeudPublic.h"
 @interface UIButton (Extends)
 
 /**

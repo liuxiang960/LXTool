@@ -10,8 +10,7 @@
 #import <ifaddrs.h>
 #import <arpa/inet.h>
 //#import "AppDelegate.h"
-#import "UIColor+helper.h"
-#import "MEOHintView.h"
+
 @implementation SeudPublic
 +(NSString *)getNumToChinaNum:(NSInteger)num{
     if (num==1) {

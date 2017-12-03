@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SeudPublic.h"
 @interface CALayer(XibConfiguration)
 
 // This assigns a CGColor to borderColor.
