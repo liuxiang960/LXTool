@@ -25,6 +25,7 @@
 #import "RACSignal+Operations.h"
 #import "NSEnumerator+RACSequenceAdditions.h"
 #import "RACCompoundDisposable.h"
+#import "SDWebImage.h"
 typedef void(^LoadUserInfoCallback)();
 
 typedef NS_ENUM(NSInteger,EUserInputType){
