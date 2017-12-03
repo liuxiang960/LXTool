@@ -137,7 +137,7 @@
 }
 
 +(void)showExchangeBubble:(NSString *)text{
-    if (DE.isLogin)
+//    if (DE.isLogin)
         [[MsgBubbleHandle sharedInstance] msgBroadcastSingleMsg:text];
 }
 
