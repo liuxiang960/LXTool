@@ -137,6 +137,7 @@ s.public_header_files = "Classes/**/*.h"
 s.dependency "CYLTabBarController", "~> 1.14.2"
 s.dependency "Masonry", "~>1.1.0"
 s.dependency "GTMBase64", "~>1.0.0"
+s.dependency "BlocksKit", "~> 2.2.5"
 end
 
 

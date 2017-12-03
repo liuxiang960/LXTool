@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Masonry.h"
+#import "UIView+Extends.h"
 @interface SEAlertBoxView : UIView
 
 @property (nonatomic, strong) UILabel *lblTitle;

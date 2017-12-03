@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIView+Extends.h"
 typedef void(^SEAlertViewBlock)();
 
 /**

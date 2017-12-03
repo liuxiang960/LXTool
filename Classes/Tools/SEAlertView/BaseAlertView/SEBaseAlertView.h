@@ -12,6 +12,7 @@
 #import "UIColor+helper.h"
 #import "SEUDColor.h"
 #import "SEUDFont.h"
+#import "UIView+Extends.h"
 /**
  *  @author 程凯, 16-07-27 18:07:54
  *
