@@ -8,7 +8,7 @@
 
 #import "NSString+Extend.h"
 #import "RegularExpression.h"
-
+#import "SeudPublic.h"
 #define iOS8 (([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) ? YES : NO)
 
 @implementation NSString (Extend)

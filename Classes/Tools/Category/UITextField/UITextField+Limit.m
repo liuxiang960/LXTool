@@ -7,7 +7,7 @@
 //
 
 #import "UITextField+Limit.h"
-
+#import "SeudPublic.h"
 @implementation UITextField (Limit)
 
 @dynamic limitCallback;
