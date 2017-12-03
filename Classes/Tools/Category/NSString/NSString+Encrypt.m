@@ -8,7 +8,7 @@
 
 #import "NSString+Encrypt.h"
 #import <CommonCrypto/CommonCryptor.h>
-
+#import "SeudPublic.h"
 @implementation NSString (Encrypt)
 
 -(NSString *)stringByAESEncrypt{
