@@ -9,8 +9,8 @@
 #import "LXTabBarControllerConfig.h"
 #import <UIKit/UIKit.h>
 #import "CYLTabBarController.h"
-#import "UINavigationController+GKCategory.h"
-#import "GKNavigationBarConfigure.h"
+//#import "UINavigationController+GKCategory.h"
+//#import "GKNavigationBarConfigure.h"
 @interface LXTabBarControllerConfig()
 @property (nonatomic,copy)NSArray *controlls;
 @property (nonatomic,copy)NSArray *configArry;
@@ -28,8 +28,7 @@
 -(void)setControlls:(NSArray *)controlls{
     NSMutableArray *muControlls = [[NSMutableArray alloc] init];
     for (UIViewController *vc in controlls) {
-        UINavigationController *nav = [UINavigationController rootVC:vc translationScale:YES];
-        nav.gk_openScrollLeftPush = YES;
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
         [muControlls  addObject:nav];
     }
     _controlls = muControlls  ;
@@ -89,3 +88,4 @@
     [navigationBarAppearance setTitleTextAttributes:textAttributes];
 }
 @end
+
