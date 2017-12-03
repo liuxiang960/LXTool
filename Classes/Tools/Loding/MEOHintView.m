@@ -245,7 +245,7 @@
     
     if(string)
     {
-        CGSize constraintSize = CGSizeMake(ScreenWidth - 90, 400.0f);
+        CGSize constraintSize = CGSizeMake([[UIScreen mainScreen] bounds].size.width - 90, 400.0f);
         CGRect stringRect;
         if ([string respondsToSelector:@selector(boundingRectWithSize:options:attributes:context:)])
         {
@@ -264,7 +264,7 @@
             {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated"
-                stringSize = [string sizeWithFont:_hintLabel.font constrainedToSize:CGSizeMake(ScreenWidth - 100, 400.0f)];
+                stringSize = [string sizeWithFont:_hintLabel.font constrainedToSize:CGSizeMake([[UIScreen mainScreen] bounds].size.width - 100, 400.0f)];
 #pragma clang diagnostic pop
             
             stringRect = CGRectMake(0.0f, 0.0f, stringSize.width, stringSize.height);
