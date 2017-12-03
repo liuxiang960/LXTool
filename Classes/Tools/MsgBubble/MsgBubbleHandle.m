@@ -64,11 +64,11 @@
     if (self.messageStack.count > 0) {
         if (![MsgBubbleView sharedInstance].isShowing) {
             [[MsgBubbleView sharedInstance] showBubble:self.messageStack.firstObject callback:^{
-                if (!DE.isLogin) {
-                    [self.messageStack removeAllObjects];
-                }else{
+//                if (!DE.isLogin) {
+//                    [self.messageStack removeAllObjects];
+//                }else{
                     [self showBubbleMsg];
-                }
+//                }
             }];
             [self.messageStack removeObjectAtIndex:0];
         }
